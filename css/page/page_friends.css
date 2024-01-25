@@ -1,0 +1,77 @@
+.page_friends_content{
+    width: 100%;
+    display: flex;
+}
+.page_friends_list{
+    width: 33%;
+    min-width: 300px;
+    /*border-style: solid;*/
+    /*border-width: 0px 2px 2px 0px;*/
+    border-color: white;
+}
+.page_friends_online{
+    width: 33%;
+    min-width: 300px;
+    /*border-style: solid;*/
+    /*border-width: 0px 0px 2px 2px;*/
+    border-color: white;
+}
+.page_friends_application{
+    width: 33%;
+    min-width: 300px;
+}
+.page_friends_title{
+    padding: 20px;
+    color: white;
+}
+.page_friends_person{
+    width: 240px;
+    height: 65px;
+    margin: 10px 0px 0px 42px;
+    display: flex;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+    opacity: 1;
+    transition: 1s;
+}
+.page_friends_person:nth-last-child(1){
+    border: 0px solid white;
+}
+.page_friends_person_avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.page_friends_person_avatar img{
+    width: 60px;
+}
+.page_friends_person_info{
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.page_friends_person_name{
+    font-size: 20px;
+    color: #b92970;
+}
+.page_friends_person_info button{
+    width: 70px;
+    font-size: 13px;
+    font-family: #;
+    color: white;
+    background: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+}
+.page_friends_person_info button:hover{
+    text-decoration: underline ;
+    color: #b92970;
+}
+#pp{
+    background: red;
+}

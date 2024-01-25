@@ -1,0 +1,149 @@
+.wrapper{
+	height: 1000px;
+}
+main{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.entrance{
+	width: 300px;
+	height: 250px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #b92970;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.entrance_content{
+	width: 250px;
+	height: 220px;
+	/*background: green;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.entrance_content_row{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	margin-top: 10px;
+}
+.entrance_title{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-family: "AcherusFeral";
+	color: white;
+}
+.entrance_error{
+	font-size: 16px;
+	font-family: "AcherusFeral";
+	color: red;
+	opacity: 0;
+	position: absolute;
+	right: 40px;
+	pointer-events: none;
+}
+.entrance_input_login{
+	width: 100%;
+	height: 35px;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family: "AcherusFeral";
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border-radius: 5px;
+	border-color: #b92970;
+	border-style: solid;
+	border-width: 3px;
+}.entrance_input_login:focus{
+    border-color: white;
+	border-style: solid;
+	border-width: 3px;
+    outline:0;
+}.entrance_input_login_placeholder{
+	width: 45px;
+	height: 12px;
+	text-align: center;
+	font-size: 13px;
+	font-family: "AcherusFeral";
+	color: rgb(80,80,80);
+	position: absolute;
+	top: 12px;
+	left: 5px;
+	pointer-events: none;
+	background-color: #161d28;
+	transition: top 0.5s ease 0s, left 0.5s ease 0s;
+}
+.entrance_input_pass{
+	width: 100%;
+	height: 35px;
+	padding-left: 5px;
+	font-size: 24px;
+	font-family: "AcherusFeral";
+	border-radius: 5px;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border-color: #b92970;
+	border-style: solid;
+	border-width: 3px;
+}.entrance_input_pass:focus{
+    border-color: white;
+	border-style: solid;
+	border-width: 3px;
+    outline:0;
+}.entrance_input_pass_placeholder{
+	width: 55px;
+	height: 12px;
+	text-align: center;
+	font-size: 13px;
+	font-family: "AcherusFeral";
+	color: rgb(80,80,80);
+	position: absolute;
+	top: 12px;
+	left: 5px;
+	pointer-events: none;
+	background-color: #161d28;
+	transition: top 0.5s ease 0s, left 0.5s ease 0s;
+}.entrance_input_pass_checkbox{
+	width: 24px;
+	height: 24px;
+	background: url(../../media/image/pass/no_password_icon.png) 0 0 no-repeat;
+	background-size: 24px;
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}.entrance_input_pass_checkbox_true{
+	background: url(../../media/image/pass/password_icon.png) 0 0 no-repeat;
+	background-size: 24px;
+}
+.entrance_content_row button{
+	height: 30px;
+	font-size: 14px;
+	font-family: "AcherusFeral";
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	color: white;
+	cursor: pointer;
+}.entrance_content_row button:hover{
+	background-color: rgba(80,80,80,0.4);
+}
+.entrance_input_submit{
+	width: 60px;
+	height: 30px;
+	font-family: "AcherusFeral";
+	color: white;
+	background-color: #b92970;
+	border-style: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

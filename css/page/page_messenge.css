@@ -1,0 +1,102 @@
+.page_messenge_content{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.page_messenge_friend{
+    max-width: 300px;
+    border-color: white;
+}
+.page_messenge{
+    width: 750px;
+    min-height: 540px;
+    margin: 0px 0px 0px 20px;
+    opacity: 0;
+    background: #3c4446;
+    border-radius: 8px;
+}
+
+.page_messenge_persons{
+    width: 240px;
+    height: 65px;
+    margin: 10px 0px 0px 42px;
+    display: flex;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.page_messenge_persons:nth-last-child(1){
+    border: 0px solid white;
+}
+.page_messenge_person_avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.page_messenge_person_avatar img{
+    width: 60px;
+}
+.page_messenge_person_info{
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.page_messenge_person_name{
+    font-size: 20px;
+    color: #b92970;
+}
+.page_messenge_mess{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.page_messenge_mess_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+.page_messenge_input{
+    width: 100%;
+    height: 25px;
+}
+.page_messenge_input [type='text']{
+    width: 75%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "AcherusFeral";
+    color: white;
+    background: rgba(0,0,0,0);
+    outline: none;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 5px;
+    caret-color: #b92970;
+}
+.page_messenge_input [type='text']:focus{
+    border-color: white;
+}
+.page_messenge_input [type='button']{
+    width: 32px;
+    height: 25px;
+    transform: translateY(6px);
+    border-style: none;
+    background: url(../../media/image/send.png);
+    /*background-color: red;*/
+    background-size: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

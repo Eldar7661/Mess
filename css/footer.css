@@ -1,0 +1,136 @@
+footer{
+	width: 100%;
+	height: 160px;
+	background: #b92970;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer_column{
+	width: 300px;
+	height: 100%;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer_column_title{
+	font-family: "AcherusFeral";
+}
+.footer_column_social_network{
+	width: 260px;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_column_social_network_column1{
+	width: 48%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer_column_social_network_column2{
+	width: 48%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer_column_social_network_row{
+	width: 100%;
+	height: 36px;
+	display: flex;
+	position: relative;
+}
+.footer_column_social_network_column1 .footer_column_social_network_row_icon{
+	width: 34px;
+	height: 100%;
+	cursor: pointer;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 2;
+}.footer_column_social_network_column1 .footer_column_social_network_row_icon:hover + .footer_column_social_network_row_name .footer_column_social_network_row_name_text{
+	left: -10%;
+}
+.footer_column_social_network_column2 .footer_column_social_network_row_icon{
+	width: 34px;
+	height: 100%;
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}.footer_column_social_network_column2 .footer_column_social_network_row_icon:hover + .footer_column_social_network_row_name .footer_column_social_network_row_name_text{
+	left: 10%;
+}
+.footer_column_social_network_row_icon img{
+	width: 100%;
+}
+.footer_column_social_network_row_name{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.footer_column_social_network_column1 .footer_column_social_network_row_name_text{
+	left: 100%;
+}
+.footer_column_social_network_column2 .footer_column_social_network_row_name_text{
+	left: -100%;
+}
+.footer_column_social_network_row_name_text{
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-family: "AcherusFeral";
+	color: black;
+	position: absolute;
+	transition: all 0.5s ease 0s;
+	/*background: green;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*-------------------------------------*/
+
+.footer_column_about_site{
+    height: 120px;
+}
+.footer_column_about_site ul{
+	padding: 0px;
+	margin: 0px;
+	/*transform: translateY(-25px);*/
+}
+.footer_column_about_site ul li{
+	list-style: none;
+	margin-top: 8px;
+}
+.footer_column_about_site ul li a{
+	color: black;
+	font-family: "AcherusFeral";
+}.footer_column_about_site ul li a:hover{
+	color: white;
+}
+
+/*-------------------------------------*/
+.footer_column_feadback ul{
+	height: 120px;
+}
+.footer_column_feadback ul{
+	padding: 0px;
+	margin: 0px;
+}
+.footer_column_feadback ul li{
+	font-family: "AcherusFeral";
+	list-style: none;
+}
+.footer_column_feadback ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: "AcherusFeral";
+}.footer_column_feadback ul li a:hover{
+	color: white;
+}

@@ -1,0 +1,179 @@
+.page_profile_content{
+	max-width: 600px;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.page_profile_button_save{
+	max-width: 600px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 40px 0px;
+}
+.page_profile_button_save div{
+	margin-right: 30px;
+	color: green;
+	display: flex;
+	justify-content: center;
+}
+.page_profile_button_save div span{
+	transform: translateY(-20px);
+	transition: all 0.6s ease-in-out 0s;
+	opacity: 0;
+}
+.page_profile_button_save button{
+	border-style: none;
+	border-radius: 5px;
+	background: #b92970;
+	color: white;
+	font: 16px "AcherusFeral";
+	cursor: pointer;
+	transition: 6s;
+}
+.page_profile_button_save button:hover{
+	background: white;
+	color: #b92970;
+}
+.page_profile_content section{
+	height: 100%;
+}
+.page_profile_content section:nth-child(1){
+	margin-left: 20px;
+}
+.page_profile_content section:nth-child(3){
+	margin-top: 20px;
+	display: flex;
+}
+.page_profile_div_photo{
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: #b92970;
+	overflow: hidden;
+}
+.page_profile_div_photo img{
+	width: 150px;
+}
+.page_profile_div_photo_input{
+	color: white;
+	font-size: 18px;
+	font-family: "AcherusFeral";
+	text-align: center;
+	margin: 15px 5px 5px 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.page_profile_div_photo_input input{
+	display: none;
+}
+.page_profile_photo_delete{
+	width: 24px;
+	cursor: pointer;
+	background: #b92970;
+	border-radius: 5px;
+	padding: 3px;
+	border-style: none;
+}
+.page_profile_div_photo_input label{
+	color: black;
+	user-select: none;
+	cursor: pointer;
+	background: #b92970;
+	border-radius: 5px;
+	padding: 3px;
+}
+.page_profile_div_status{
+	margin-top: 10px;
+}
+.page_profile_div_name input{
+	max-width: 150px;
+	color: #b92970;
+	font: 24px "AcherusFeral";
+	background: rgba(0,0,0,0);
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: white;
+	outline: none;
+}
+.page_profile_div_status textarea{
+	width: 300px;
+	height: 100px;
+	color: white;
+	font-size: 18px;
+	font-family: "AcherusFeral";
+	resize: none;
+	background: rgba(0,0,0,0);
+	border-width: 2px;
+	border-radius: 4px;
+	padding: 5px;
+}
+.page_profile_content section ul{
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+}
+.page_profile_content section ul li{
+	height: 30px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	list-style: none;
+	/*color: #b92970;*/
+	color: white;
+	font-size: 18px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.page_profile_content section ul li input{
+	font-size: 18px;
+	font-family: "AcherusFeral";
+	color: white;
+	background: rgba(0,0,0,0);
+	outline: none;
+	border-style: solid;
+}
+.page_profile_content section ul li select{
+	font-size: 14px;
+	font-family: "AcherusFeral";
+	color: white;
+	background: rgba(0,0,0,0);
+	outline: none;
+	border-style: solid;
+}
+.page_profile_content section ul li select option{
+	background: #333;
+}
+.page_profile_div_gender{
+	width: 300px;
+	height: 100%;
+	display: flex;
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+	background: rgb(80,80,80)
+}
+.page_profile_gender_title{
+	width: 100px;
+	height: 100%;
+	font-size: 12px;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+	position: relative;
+	z-index: 2;
+}
+.page_profile_gender_pointer{
+	width: 100px;
+	height: 100%;
+	background: #b92970;
+	transition: 0.4s;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}

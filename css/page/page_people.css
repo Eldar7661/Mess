@@ -1,0 +1,53 @@
+.page_people_content{
+    display: flex;
+    flex-wrap: wrap;
+     padding: 0px 0px 20px 0px;
+}
+.page_people_person{
+    height: 65px;
+    margin: 22px 0px 0px 42px;
+    display: flex;
+}
+.page_people_person_avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.page_people_person_avatar img{
+    width: 60px;
+}
+.page_people_person_info{
+    height: 100%;
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+}
+.page_people_person_name{
+    font-size: 20px;
+    color: #b92970;
+}
+.page_people_person_general_friend{
+    font-size: 12px;
+    color: white;
+}
+.page_people_person_info button{
+    width: 100px;
+    font-size: 12px;
+    color: white;
+    background: rgba(0,0,0,0);
+    border-style: none;
+    cursor: pointer;
+}
+.page_people_person_info button:hover{
+    text-decoration: underline;
+}
+#page_people_person_delete_application{
+    width: 110px;
+    color: red;
+}

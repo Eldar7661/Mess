@@ -1,0 +1,28 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    background: #161d28;
+}
+@font-face{
+    font-family: "AcherusFeral";
+    src: url("../media/font/ofont.ru_Acherus_Feral.ttf");
+}
+.wrapper{
+    width: 1200px;
+    height: 1100px;
+    background: #161d28;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: height 0.4s ease 0s;
+    font-family: "AcherusFeral";
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/*https://www.flaticon.com/ru/free-icon/my-account_2854337?related_id=2854337&origin=search*/

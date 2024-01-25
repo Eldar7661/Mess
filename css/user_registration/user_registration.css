@@ -1,0 +1,155 @@
+.wrapper{
+	height: 1000px;
+}
+main{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.registration{
+	width: 400px;
+	height: 250px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #b92970;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	transition: height 0.8s ease 0s;
+}
+.registration_to_stage_user_data{
+	width: 400px;
+	height: 340px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #b92970;
+	border-radius: 10px;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	transition: height 0.8s ease 0s;
+}
+.registration_content{
+	width: 300%;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 1s ease 0s;
+}
+.registration_stage{
+	width: 400px;
+	height: 100%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.registration_stage_row{
+	/*width: 100%;*/
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	margin-top: 14px;
+}
+.registration_title{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-family: "AcherusFeral";
+	color: white;
+}
+hr{
+	border-color: #b92970;
+}
+.registration_stage_input{
+	width: 100%;
+	height: 35px;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family: "AcherusFeral";
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border-radius: 5px;
+	border-color: #b92970;
+	border-style: solid;
+	border-width: 3px;
+}.registration_stage_input:focus{
+    border-color: white;
+	border-style: solid;
+	border-width: 3px;
+    outline:0;
+}
+.registration_stage_input_placeholder{
+	height: 18px;
+	text-align: center;
+	font-size: 13px;
+	font-family: "AcherusFeral";
+	color: rgb(80,80,80);
+	position: absolute;
+	top: 12px;
+	left: 5px;
+	pointer-events: none;
+	background-color: #161d28;
+	transition: top 0.5s ease 0s, left 0.5s ease 0s;
+	border-radius: 8px;
+	/*background: red;*/
+}
+.registration_stage_error{
+	font-size: 16px;
+	font-family: "AcherusFeral";
+	color: red;
+	opacity: 0;
+	position: absolute;
+	right: 12px;
+	pointer-events: none;
+}
+.registration_stage_submit{
+	width: 60px;
+	height: 30px;
+	font-family: "AcherusFeral";
+	color: white;
+	background-color: #b92970;
+	border-style: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.registration_stage_login hr{
+	width: 260px;
+}
+.registration_stage_code hr{
+	width: 100%;
+}
+.registration_stage_user_data hr{
+	width: 280px;
+}
+.registration_stage_login_input_login_placeholder{
+	width: 45px;
+}
+.registration_stage_code_input_code_placeholder{
+	width: 40px;
+}
+.registration_stage_user_data_input_user_name_placeholder{
+	width: 35px;
+}
+.registration_stage_user_data_input_user_surname_placeholder{
+	width: 70px;
+}
+.registration_stage_user_data_input_user_pass_placeholder{
+	width: 56px;
+}
+.registration_stage_user_data_input_user_passtwo_placeholder{
+	width: 130px;
+}
+
+.registration_stage_code_input_code::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+[name="registration_stage_user_data_input_submit"]{
+	width: 70px;
+}
